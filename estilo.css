@@ -1,0 +1,73 @@
+*
+{
+    border: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    outline: none;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    resize: none;
+}
+
+body
+{
+    overflow-x: hidden;
+}
+
+header
+{
+    width: 100%;
+}
+
+.logo-ufps
+{
+    border-bottom: 3px solid red;
+    width: 100%;
+}
+
+.logo-ufps__content
+{
+    /* Centra verticalmente los objetos que estan en su interior */
+    align-items: center;
+    display: flex;
+    /* Centrar horizontalmente */
+    margin: 0 auto;
+    width: 90%;
+}
+
+.size-logo
+{
+    width: 130px;
+}
+
+.row > div{
+    background: #f2f2f2;
+    padding: 30px;
+    border: 1px solid grey;
+  }
+
+  #button {
+    padding: 0;
+    }
+   
+   
+   
+   #button li {
+    display: inline;
+    }
+  #button li a {
+    font-family: Arial;
+    font-size: 11px;
+    text-decoration: none;
+    float: left;
+    padding: 10px;
+    background-color:red;
+    color: #fff;
+    }
+
+    #button li a:hover {
+        background-color: #2586d7;
+        margin-top: -2;
+        padding-bottom: 12px;]
+        }
